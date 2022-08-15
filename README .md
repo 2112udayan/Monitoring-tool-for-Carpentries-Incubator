@@ -3,7 +3,7 @@
 
 
 
-1. Description This project focuses on building a monitoring tool to help open-source projects. Carpentries Incubator is used as an exemplar, a place for the 
+1. Description : This project focuses on building a monitoring tool to help open-source projects. Carpentries Incubator is used as an exemplar, a platform for the 
    collaborative development of domain-specific lessons for coding and data science skills. Presently only some basic information is presented on the Carpentries 
    Incubator website. This project aims to automate this process and build a monitoring tool that may be helpful to the Carpentries community managers and other 
    similar projects.
