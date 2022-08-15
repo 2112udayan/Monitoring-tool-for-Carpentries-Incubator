@@ -4,9 +4,9 @@
 
 
 1. Description This project focuses on building a monitoring tool to help open-source projects. Carpentries Incubator is used as an exemplar, a place for the 
-    collaborative development of domain-specific lessons for coding and data science skills. Presently only some basic information is presented on the Carpentries 
-    Incubator website. This project aims to automate this process and build a monitoring tool that may be helpful to the Carpentries community managers and other 
-    similar projects.
+   collaborative development of domain-specific lessons for coding and data science skills. Presently only some basic information is presented on the Carpentries 
+   Incubator website. This project aims to automate this process and build a monitoring tool that may be helpful to the Carpentries community managers and other 
+   similar projects.
     
    This project has only been tested on Windows 11; it consists of a Monitoring tool to manage open-source projects in python, and jupyter notebook files in 
    the 'Notebook' folder.
@@ -34,19 +34,18 @@
    
    $ jupyter notebook
 
-   Select the .ipynb files in the 'Notebook' folder and run cells using the Jupyter notebook interface. Run all cells at once or 'Shift+Enter' to run the individual cell.
+   Select the .ipynb files in the 'Notebook' folder and run cells using the Jupyter notebook interface. Run all cells at once or 'Shift+Enter' to run the individual      cell.
 
   6 List of Notebook files to analyse the each stage of tool development.
    - Setup_API.ipynb ---is an indicator to insert the personal token to each notebook file to authenticate before excecuting the further code .
-   - Data_Extraction.ipynb--- contains a function to retrieve consolidated data such as commit data , open pull request data , open issues data , list of labels, life cycle stage of each repsoitories as an individual file in json format.
-   - Repositories_list.ipynb---contains a function to get available Repsoitories_count in Carpentries Incubator , Final repositories list of 125 repsoitroies , List of repsoitories with lesson and list of repsoitories without lessons.
-   - Indicators_of_each_repositories.ipynb---Contains individual functions to get an overview of an each parameter of the repsoistories such as "repo_name","open_PR", "closed_PR","closed_issues","open_issues","stargazers_count of 111 repsoitories .
-   - Monitoring-tool-for-Carpentries-Incubator---contains a function to get the total count of ( allcategories (Issue_count, Pr_count, Stagazers_count & contributors_count).
-   - Carpentries_dashboard.ipynb---Contains a function to display the dashboard of Carpentries Incubator website ( Repository name , Lesson title, Last updated date , List of topics ,life cycle stage , label count)
+   - Data_Extraction.ipynb--- contains a function to retrieve consolidated data such as commit data , open pull request data , open issues data , list of labels, life      cycle stage of each repsoitories as an individual file in json format.
+   - Indicators_of_each_repositories.ipynb---Contains individual functions to get an overview of an each parameter of the repsoistories such as "repo_name","open_PR",      "closed_PR","closed_issues","open_issues","stargazers_count of 111 repsoitories .
+   - Monitoring-tool-for-Carpentries-Incubator---contains a function to get the total count of ( allcategories (Issue_count, Pr_count, Stagazers_count &                    contributors_count).
+   - Carpentries_dashboard.ipynb---Contains a function to display the dashboard of Carpentries Incubator website ( Repository name , Lesson title, Last updated date ,      List of topics ,life cycle stage , label count)
    - Collaborative-aspect.ipynb---Contains functions to get the commit count and contributors , issues count and contributors , pulls count and contributors.
    - Analysis.ipynb--- Contains functions to plot a histogram and Collaboration graph.
    
-  Credits:
+   Credits:
 
   Special thanks to Dr Olexandr Konovalov:)
 
@@ -58,9 +57,13 @@ Any additional information goes here
 ## Documentation
 
 Link to get the API url for available resource in the REST API-- https://docs.github.com/en/rest
+
 Link to PyGithub documentation - https://pygithub.readthedocs.io/en/latest/introduction.html
+
 Link to The Carpentries website- https://carpentries.org/community-lessons/
+
 Link to the Carpentries Incubator - https://carpentries-incubator.org/
+
 Link to Carpentries Incubator GitHub Account- https://github.com/carpentries-incubator/
 
 ## Acknowledgements
