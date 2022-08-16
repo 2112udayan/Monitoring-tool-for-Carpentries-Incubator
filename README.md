@@ -47,7 +47,7 @@
    - Monitoring-tool-for-Carpentries-Incubator---contains a function to get the total count of ( allcategories (Issue_count, Pr_count, Stagazers_count &                    contributors_count).
    - Carpentries_dashboard.ipynb---Contains a function to display the dashboard of Carpentries Incubator website ( Repository name , Lesson title, Last updated date ,      List of topics ,life cycle stage , label count)
    - Collaborative-aspect.ipynb---Contains functions to get the commit count and contributors , issues count and contributors , pulls count and contributors.
-   - Analysis.ipynb--- Contain functions to plot a histogram and Collaboration graph.
+   - Data Visualisation.ipynb--- Contain functions to plot a histogram and Collaboration graph.
   
 
 
