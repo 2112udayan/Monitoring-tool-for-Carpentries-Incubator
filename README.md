@@ -33,12 +33,12 @@
   5 Where to enter the access token to run the code.
    - Refer to the notebook file -named -Setup_API.ipynb
    - Enter the Personal access token in  "INSERT CODE HERE".
-
+ 
    To view the jupyter projects, open jupyter notebook using the command line in the top directory with:
    
-   $ jupyter notebook
+    $ jupyter notebook
 
-   Select the .ipynb files in the 'Notebook' folder and run cells using the Jupyter notebook interface. Run all cells at once or 'Shift+Enter' to run the individual      cell.
+    Select the .ipynb files in the 'Notebook' folder and run cells using the Jupyter notebook interface. Run all cells at once or 'Shift+Enter' to run the individual       cell.
 
   6 List of Notebook files to analyse the each stage of tool development.
    - Setup_API.ipynb ---is an indicator to insert the personal token to each notebook file to authenticate before excecuting the further code .
