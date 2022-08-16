@@ -1,7 +1,7 @@
 
  Project name-  Monitoring-tool-for-managing-open-source-projects
  
- This Project done as CS5099 module at the University of St Andrews under Dr Olexandr Knonovalov's  supervision.
+ This Project done as CS5099 module at the University of St Andrews under Dr Olexandr Konovalov's  supervision.
   
   
   
