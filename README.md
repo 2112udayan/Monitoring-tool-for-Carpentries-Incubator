@@ -1,5 +1,7 @@
 
-  CS5099 Monitoring-tool-for-managing-open-source-projects
+ Project name-  Monitoring-tool-for-managing-open-source-projects
+ 
+ This Project done as CS5099 module at the University of St Andrews under Dr Olexandr Knonovalov's  supervision.
   
   
   
@@ -46,58 +48,18 @@
    - Carpentries_dashboard.ipynb---Contains a function to display the dashboard of Carpentries Incubator website ( Repository name , Lesson title, Last updated date ,      List of topics ,life cycle stage , label count)
    - Collaborative-aspect.ipynb---Contains functions to get the commit count and contributors , issues count and contributors , pulls count and contributors.
    - Analysis.ipynb--- Contain functions to plot a histogram and Collaboration graph.
-   
-   Credits:
-
-  Special thanks to Dr Olexandr Konovalov:)
-
-## Appendix
-
-Any additional information goes here
+  
 
 
 ## Documentation
 
-Link to get the API url for available resource in the REST API-- https://docs.github.com/en/rest
+ REST API Documnetation-- https://docs.github.com/en/rest
 
-Link to PyGithub documentation - https://pygithub.readthedocs.io/en/latest/introduction.html
+ PyGithub documentation - https://pygithub.readthedocs.io/en/latest/introduction.html
+ The Carpentries website- https://carpentries.org/community-lessons/
 
-Link to The Carpentries website- https://carpentries.org/community-lessons/
+ Carpentries Incubator - https://carpentries-incubator.org/
 
-Link to the Carpentries Incubator - https://carpentries-incubator.org/
+ Carpentries Incubator GitHub Account- https://github.com/carpentries-incubator/
 
-Link to Carpentries Incubator GitHub Account- https://github.com/carpentries-incubator/
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
 
