@@ -41,8 +41,8 @@
     Select the .ipynb files in the 'Notebook' folder and run cells using the Jupyter notebook interface. Run all cells at once or 'Shift+Enter' to run the individual       cell.
 
   6 List of Notebook files to analyse the each stage of tool development.
-   - Setup_API.ipynb ---is an indicator to insert the personal token to each notebook file to authenticate before excecuting the further code .
-   - Data_Extraction.ipynb--- contains a function to retrieve consolidated data such as commit data , open pull request data , open issues data , list of labels, life      cycle stage of each repsoitories as an individual file in json format.
+   - Setup_API.ipynb ---Run this file to authenticate before before running the code of anyother notebook file .
+   - Data_retrieval.ipynb--- contains a function to retrieve consolidated data such as commit data , open pull request data , open issues data , list of labels, life        cycle stage of each repsoitories as an individual file in json format.
    - Indicators_of_each_repositories.ipynb---Contains individual functions to get an overview of an each parameter of the repsoistories such as "repo_name","open_PR",      "closed_PR","closed_issues","open_issues","stargazers_count of  repsoitories with lesson
    - Dashboard_of_Lesson_Informations.ipynb---Contain functions  to display the dashboard of Carpentries Incubator website ( Repository name , Lesson title, Last            updated date ,List of topics ,life cycle stage , label count) and to get the total count of ( allcategories (Issue_count, Pr_count, Stagazers_count &                  contributors_count).
    - Collaborative-aspect.ipynb---Contains functions to get the commit count and contributors , issues count and contributors , pulls count and contributors.
