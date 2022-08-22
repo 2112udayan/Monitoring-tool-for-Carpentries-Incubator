@@ -41,11 +41,11 @@
     Select the .ipynb files in the 'Notebook' folder and run cells using the Jupyter notebook interface. Run all cells at once or 'Shift+Enter' to run the individual       cell.
 
   6 List of Notebook files to analyse the each stage of tool development.
-   - Setup_API.ipynb ---Run this file to authenticate before before running the code of anyother notebook file .
-   - Data_retrieval.ipynb--- contains a function to retrieve consolidated data such as commit data , open pull request data , open issues data , list of labels, life        cycle stage of each repsoitories as an individual file in json format.
-   - Indicators_of_each_repository.ipynb---Contains individual functions to get an overview of an every parameter of the repsoistories with lesson such as                  "repo_name","open_PR","closed_PR","closed_issues","open_issues","stargazers_count .
-   - Dashboard_of_Lesson_Informations.ipynb---Contain functions  to display the dashboard of Carpentries Incubator website ( Repository name , Lesson title, Last            updated date ,List of topics ,life cycle stage , label count) and also has a function to get the total count of ( allcategories (Issue_count, Pr_count,                Stagazers_count).
-   - Collaborative-aspect.ipynb---Contains functions to get the commit count,issues count pulls count and their contributors and total contributors. It also contain a      code to average number of contributors for a lesson ( classifying by different stages: pre-alpha, alpha, beta, stable).Addionally, shows average of total              contributors of a lesson ( classifying by different stages:pre-alpha, alpha, beta,stable)
+   - Setup_API.ipynb ---Run this file to authenticate before running the code of anyother notebook files .
+   - Data_Retrieval.ipynb--- contain functions to retrieve consolidated data of parameters such as commit data , open pull request data , open issues data , list of        labels, life cycle stage of each repsoitories as an individual file in json format.The commit_user_details() function used in this file for the commit user data        retrieval was provided by the project supervisor.
+   - Repository_Indicators.ipynb---Contains individual functions to get an overview of an every parameter of the repsoistories with lesson such as                          "repo_name","open_PR","closed_PR","closed_issues","open_issues","stargazers_count .
+   - Lesson_Information_Dashboard.ipynb---Contain functions  to display the dashboard of Carpentries Incubator website ( Repository name , Lesson title, Last                updated date ,List of topics ,life cycle stage , label count) and also has a function to get the total count of ( allcategories (Issue_count, Pr_count,                Stagazers_count).
+   - Collaborative-Aspects.ipynb---Contains functions to get the commit count,issues count pulls count and their contributors and total contributors. It also contain a      code to average number of contributors for a lesson ( classifying by different stages: pre-alpha, alpha, beta, stable).Addionally, shows average of total              contributors of a lesson ( classifying by different stages:pre-alpha, alpha, beta,stable)
    - Data_Visualisation.ipynb--- Contain functions to plot a histogram and Collaboration graph.
   
 
