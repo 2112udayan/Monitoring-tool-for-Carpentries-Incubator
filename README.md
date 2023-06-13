@@ -10,12 +10,11 @@
    Incubator website. This project aims to automate this process and build a monitoring tool that may be helpful to the Carpentries community managers and other 
    similar projects.
     
-   This project has only been tested on Windows 11; it consists of a Monitoring tool to manage open-source projects in python, and jupyter notebook files in 
+   This project consists of a Monitoring tool to manage open-source projects in python, and jupyter notebook files in 
    the 'Notebook' folder.
    
 2. Installation
-    - requires python, preferably the latest version.
-    - Only tested on Windows 11
+    - requires python, preferably the latest version
 
  3. This installs all the python libraries needed.
     
@@ -31,9 +30,9 @@
 
  5. Where to enter the access token to run the code.
   
-    - Refer to the notebook file -named -Setup_API.ipynb
-    - Enter the Personal access token in  "INSERT CODE HERE".
- 
+    - The token should be stored in the file `~/.github_shell_token`
+      in your home directory
+      
     To view the jupyter projects, open jupyter notebook using the command line in the top directory with:
    
     $ jupyter notebook
@@ -42,9 +41,7 @@
     Run all cells at once or 'Shift+Enter' to run the individual cell.
 
  6. List of Notebook files to analyse the each stage of tool development.
-  
-    - Setup_API.ipynb ---Run this file to authenticate before running the code of any other notebook file.
-    
+     
     - Data_Retrieval.ipynb--- contain functions to retrieve consolidated data of parameters such as commit data , 
       open pull request data , open issues data , list of labels, life cycle stage of each repositories as an 
       individual file in json format.The commit_user_details() function used in this file for the commit user data       
