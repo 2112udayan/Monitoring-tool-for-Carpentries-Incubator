@@ -20,13 +20,7 @@
     
     $ Use pip install -r requirements.txt to install required modules.
 
- 4. Generate Access token
-
-    - Verify your email address.
-    - In the upper-right corner of any page, click your profile photo, then click Settings.
-    - In the left sidebar, click Developer settings.
-    - In the left sidebar, click Personal access tokens
-    - Click Generate new token.
+ 4. Generate GitHub personal access token at https://github.com/settings/tokens
 
  5. Where to enter the access token to run the code.
   
